@@ -1,39 +1,5 @@
 .App {
-    .header {
-        height: 60px;
-        margin: 0px 7vw;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        div {
-            .logo {
-                padding: 10px 5px;
-                border: 1px solid #e3e4e5;
-                background-color: #fff;
-                img {
-                    height: 60px;
-                }
-            }
-        }  
-        .menu {
-            ul{
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                li {
-                    list-style: none;
-                    font-size: 16px;
-                    a {
-                        text-decoration: none;
-                        color: #000;
-                    }
-                    & + li {
-                        margin-left: 25px;
-                    }
-                }
-            }
-        }
-    } 
+    
     section#hero{
         height: 500px;
         padding: 50px 40px;
@@ -65,25 +31,6 @@
             }
         }
     }
-    .footer {
-        background-color: #191f22;
-        color: #fff;
-        padding: 4.5em 7%;
-        margin-top: 50px;
-        background-image: url("./assets/images/bg-porsche.webp");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 50%;
-        .content {
-
-        }
-        .copyright {
-            line-height: 1.5em;
-            p {
-
-            }
-        }
-    }  
 }
 
 @media screen and (min-width: 1200px ) {

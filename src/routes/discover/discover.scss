@@ -1,0 +1,36 @@
+#discover {
+    margin: 0px 7%;
+    h2 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .discover-container {
+        display: flex;
+        .discover-item {
+            cursor: pointer;
+            transition: all ease-in 0.5s;
+            &:hover {
+                color: #d5001c;
+                img {
+                    border-bottom: #d5001c 2px solid;
+                }
+            }
+            img {
+                height: 285px;
+                border-bottom: 1px solid transparent;
+            }
+            h3 {
+                margin: 0;
+                font-size: 16px;
+                font-weight: 400;
+                &::before {
+                    width: 1em;
+                    color: #d5001c;
+                    font-size: 20px;
+                    content: ">";
+                    margin-left: -5px;
+                }
+            }
+        }
+    }
+}
