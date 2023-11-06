@@ -9,26 +9,27 @@ section#models-section {
         grid-auto-rows: 220px;
         grid-template-columns: repeat(2, 1fr);
         .model-item {
+            cursor: pointer;
             background-repeat: no-repeat;
             background-size: cover;
             background-position: 50%;
             &:nth-child(1) {
-                background-image: url("../../assets/images/");
+                background-image: url("../../assets/images/porsche-small.webp");
             }
             &:nth-child(2) {
-                background-image: url("../../assets/images/");
+                background-image: url("../../assets/images/porsche-small-2.webp");
             }
             &:nth-child(3) {
-                background-image: url("../../assets/images/");
+                background-image: url("../../assets/images/porsche-small-3.webp");
             }
             &:nth-child(4) {
-                background-image: url("../../assets/images/");
+                background-image: url("../../assets/images/porsche-small-4.webp");
             }
             &:nth-child(5) {
-                background-image: url("../../assets/images/");
+                background-image: url("../../assets/images/porsche-small-5.webp");
             }
             &:nth-child(6) {
-                background-image: url("../../assets/images/");
+                background-image: url("../../assets/images/porsche-small-6.webp");
             }
             h3 {
                 color: #FFF;

@@ -8,9 +8,9 @@ const Header = () => {
     return (
         <header>
             <div>
-                <a href='#' className='logo' aria-label='Logo'>
+                <Link to='/' className='logo' aria-label='Logo'>
                 <img src={logo} alt='Logo da Porsche'></img>
-                </a>
+                </Link>
             </div>
 
             <nav className='menu'> 
